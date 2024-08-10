@@ -12,6 +12,9 @@
             "hash": "87c8394712418dcc4a608fdc34c0a23a89a41e626b9e3294c0978bb2bda0a0d1"
         }
     },
+    "env_set": {
+        "SQLITE3_DLL_PATH": "$dir\\sqlite3.dll"
+    },
     "checkver": {
         "url": "https://www.sqlite.org/download.html",
         "regex": "(?sm)\\d+-bit DLL \\(x\\d+\\) for SQLite version ([\\d.]+)\\..*?(?<year>\\d+)/sqlite-tools-win-x64-(?<clean>\\d+)"
